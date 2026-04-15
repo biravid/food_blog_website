@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.nav_bar {
+    background-color: rgb(249, 250, 252);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.nav_bar p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.nav_left, .nav_center, .nav_right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.nav_left {
+    justify-content: flex-start;
+}
+
+.nav_center {
+    justify-content: center;
+}
+
+.nav_right {
+    justify-content: flex-end;
+}
+
+body {
+    margin-top: 60px;
+}
+
+.food_gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 100px 200px 100px 200px;
+
+
+}
+
+.food_gallery div {
+    padding: 10px;
+
+}
+
+#fi {
+    width: 270px;
+    height: 400px;
+}
+
+.img_hd {
+    font-size: 22px;
+
+}
+
+.pages .num {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.pages .num div {
+
+    margin: 3px;
+    padding: 20px;
+    font-size: 14px;
+
+}
+
+.pages .num div:hover {
+    background-color: black;
+    color: white;
+}
+
+.sep {
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+hr {
+    background-color: rgb(204, 205, 206);
+}
+
+#about {
+    padding: 70px 200px;
+
+}
+
+.food_man_head {
+    font-size: 25px;
+
+}
+
+.pp {
+    font-size: 18px;
+}
+
+.bb {
+    font-size: 20px;
+}
+
+.footer .last {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-between;
+
+}
+
+
+.footer {
+    padding: 100px 150px;
+}
+
+.sub_blog img {
+    height: 50px;
+    width: 50px;
+}
+
+.lorem {
+    border-bottom: 1px solid rgb(68, 61, 61);
+}
+
+.flex {
+    display: flex;
+    height: 100px;
+    flex-wrap: wrap;
+    align-content:center;
+    gap: 5px;
+}
+.flex p {
+    background-color: rgb(102, 101, 101);
+    color: white;
+    padding: 5px;
+}
+#diff {
+    background-color: rgb(39, 39, 39);
+}
+#oo:hover {
+    background-color: rgb(168, 169, 171);
+}
